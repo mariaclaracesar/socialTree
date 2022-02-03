@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  text-decoration: none;
+}
+
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--body-bg-color);
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* define como os itens flexíveis são colocados no contêiner flexível, definindo o eixo principal e a direção (normal ou invertido). */
+  flex-direction: column;
+}
+
+#img-principal {
+  margin-top: 207px;
+
+  width: 200px;
+  height: 200px;
+}
+
+#img-principal img {
+  border-radius: 50%;
+}
+
+#link-principal {
+  color: var(--purple);
+  opacity: 0.5;
+
+  position: absolute;
+  width: 99px;
+  height: 24px;
+  left: 669px;
+  top: 429px;
+}
+
+.links-lista {
+  font-family: 'Poppins', sans-serif;
+
+  margin: 16px;
+}
+
+#logos {
+  display: flex;
+  justify-content: center;
+}
+
+.links-logo {
+  margin: 19px;
+  margin-top: 300px;
+}
