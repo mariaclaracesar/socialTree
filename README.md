@@ -4,7 +4,9 @@
 
 <br>
 
-<img alt="Social Tree" title="Social Tree" src="public/images/home.png" />
+<h1> 
+SOCIAL TREE 
+</h1>
 
 ## ✨ Tecnologias
 
